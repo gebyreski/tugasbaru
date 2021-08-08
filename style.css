@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400&family=Permanent+Marker&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.site-zayn {
+  padding: 5em 0;
+}
+
+.site-zayn .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Hahmlet",sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+.site-zayn .container h2 {
+  font-family: "Hamlet",sans-serif;
+  font-weight: 400;
+  font-size: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-zayn .container hr {
+  border: 4px solid black;
+  width: 50%;
+  margin-left: 25% !important;
+  margin-right: 25% !important;
+}
+
+.site-zayn .container .container-synopsis {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3em 1em;
+}
+
+.site-zayn .container .container-synopsis img {
+  width: 1200px;
+  height: 900px;
+  -webkit-box-shadow: 10px 10px 13px grey;
+          box-shadow: 10px 10px 13px grey;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: all 0.3s ease-in 0s;
+  transition: all 0.3s ease-in 0s;
+}
+
+.site-zayn .container .container-synopsis img:hover {
+  -webkit-box-shadow: 10px 10px 13px red;
+          box-shadow: 10px 10px 13px red;
+}
+
+.site-zayn .container .container-synopsis p {
+  padding: 0 3em;
+  font-family: "Hahmlet", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: justify;
+  text-indent: 50px;
+  letter-spacing: 3px;
+}
+/*# sourceMappingURL=style.css.map */

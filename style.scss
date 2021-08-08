@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300&display=swap')
+@import "base";
+@import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@300;400&family=Permanent+Marker&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+ 
+.site-zayn{
+    padding: 5em 0;
+
+    .container{
+
+        display: flex;
+        flex-direction: column;
+        font-family: "Hahmlet",sans-serif;
+        font-weight: 400;
+        font-size: 36px;
+
+        h2{
+            font-family: "Hamlet",sans-serif;
+            font-weight: 400;
+            font-size: 52px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        hr{
+            border: 4px solid black;
+            width:50%; 
+            margin-left:25% !important; 
+            margin-right:25% !important;
+
+        }
+
+        .container-synopsis{
+            display: flex;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            padding: 3em 1em;
+            
+            img{
+                width: 1200px;
+                height: 900px;
+
+                box-shadow: 10px 10px 13px grey;
+                object-fit: cover;
+                transition: all 0.3s ease-in 0s;
+
+                &:hover{
+                    box-shadow: 10px 10px 13px red;
+                }
+            }
+            p{
+                padding: 0 3em;
+                font-family: "Hahmlet", sans-serif;
+                font-size: 24px;
+                font-weight: 400;
+                text-align: justify;
+                text-indent: 50px;
+                letter-spacing: 3px;
+            }
+        }
+    }
+}
